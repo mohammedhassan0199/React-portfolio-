@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-function Hero(props) {
+function Hero() {
   useEffect(() => {
     AOS.init();
   }, [])
@@ -24,7 +24,7 @@ function Hero(props) {
 
     </div>
 
-    <div  data-aos="fade-left"  data-aos-duration="1500" className="mt-9 w-[40%] flex justify-end h-[90vh] sm:w-full md:h-[80vh] sm:h-[60vh] sm:justify-center"><img className="bg-blend h-full object-cover"  alt=""/><Demo url="hassan.webp"/> </div>
+    <div  data-aos="fade-left"  data-aos-duration="1500" className="mt-9 w-[40%] flex justify-end h-[90vh] sm:w-full md:h-[80vh] sm:h-[60vh] sm:justify-center"><img className="bg-blend h-full object-cover"  alt=""/><img src="hassan.webp" alt="" /></div>
 </section>
 </header>
   );
