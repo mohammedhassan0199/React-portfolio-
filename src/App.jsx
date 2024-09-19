@@ -25,17 +25,17 @@ return (
 {/* <!-- ------------------- Footer -------------------- --> */}
  
  <div className="px-[7%] py-[5%] flex justify-center items-center">
- <a  href="#home" className="w-40 h-10 flex items-center sm:w-20" ><Demo url='mainlogo.webp'/></a>
+ <a  href="#home" className="w-40 h-10 flex items-center sm:w-20" ><img src="mainlogo.webp" alt="" /></a>
 
 <div className="flex items-center">
-<a href=""><i className="fa-brands fa-facebook  text-[#1B732E] mx-5 text-4xl sm:text-2xl"></i></a>
-<a href=""><i class="fa-brands fa-square-instagram text-[#1B732E] text-4xl sm:text-2xl"></i></a>
+<a href="https://github.com/mohammedhassan0199" target="-main"><i className="fa-brands fa-github  text-[#1B732E] mx-5 text-4xl sm:text-2xl"></i></a>
+<a href="https://app.netlify.com/teams/mohammedhassan0199/sites" target="-main"><img src="netlify.png" alt="" /></a>
 </div>
 
  </div>
 
 <div className="bg-[#1B732E] text-center py-[2%] text-white">
-  <p className="sm:text-xs"><Demo desc='© 2024 Mohammed Hassan. All rights reserved.'/></p>
+  <p className="sm:text-xs">© 2024 Mohammed Hassan. All rights reserved.</p>
   
     
   </div> 

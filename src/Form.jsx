@@ -3,7 +3,7 @@ import { ErrorMessage } from "@hookform/error-message";
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser'
-import Demo from './Demo'
+
 
 function Form(){
 
@@ -41,7 +41,7 @@ function Form(){
 
                <div className="text-center ">
                 
-               <h1 className="mb-10 text-[#1B732E] text-4xl font-semibold  lg:text-3xl md:text-2xl sm:text-xl"><Demo head="Contact Me"/></h1>
+               <h1 className="mb-10 text-[#1B732E] text-4xl font-semibold  lg:text-3xl md:text-2xl sm:text-xl">Contact Me</h1>
                </div>
 
                 <form ref={form} onSubmit={handleSubmit(onSubmit)} onChange={sendEmail} className="flex flex-col w-full px-16 text-white items-center relative sm:px-5" >
